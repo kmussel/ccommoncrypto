@@ -1,5 +1,4 @@
-module CCommonCrypto [system] {
+module CCommonCrypto [system][extern_c] {
   header "/usr/include/CommonCrypto/CommonCrypto.h"
   export *
-  module * { export * }
 }
